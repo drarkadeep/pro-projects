@@ -4,6 +4,16 @@ from gtts import gTTS
 import os
 
 def resize_and_pad(clip, target_size):
+    """
+    Resizes a video clip while maintaining the aspect ratio and pads it with a black background to fit the target size.
+
+    Parameters:
+    clip (VideoFileClip): The video clip to be resized and padded.
+    target_size (tuple): The target size (width, height) for the output video.
+
+    Returns:
+    VideoFileClip: The resized and padded video clip.
+    """
     # Calculate the aspect ratios
     clip_aspect = clip.w / clip.h
     target_aspect = target_size[0] / target_size[1]
@@ -27,6 +37,18 @@ def resize_and_pad(clip, target_size):
     return padded_clip.set_duration(clip.duration)
 
 def create_video_from_json(json_file, output_file, target_size=(1920, 1080)):
+    """
+    Creates a video from a JSON file that contains text and media (image or video) entries.
+
+    Parameters:
+    json_file (str): Path to the JSON file containing the video content.
+    output_file (str): Path to the output video file.
+    target_size (tuple): The target size (width, height) for the output video. Default is (1920, 1080).
+
+    The JSON file should contain a list of items, each with a 'text' and 'media' field.
+    - 'text' is the text to be converted to speech.
+    - 'media' is the path to the image or video file.
+    """
     # Load JSON data
     with open(json_file, 'r') as f:
         data = json.load(f)
