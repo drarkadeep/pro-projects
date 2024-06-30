@@ -12,7 +12,7 @@
 
 ###### Hit the notification bell
 
-# Here is the comprehensive documentation for the provided code:
+# Here is the comprehensive documentation:
 
 #### Imports
 - `moviepy.editor`: For video processing and editing.
