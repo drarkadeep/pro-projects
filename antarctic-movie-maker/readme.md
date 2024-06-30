@@ -1,6 +1,6 @@
 # This is the source code for [Antarctic Movie Maker](https://youtu.be/hcqhivp8yOk)
 
-This is the Antarctic MovieMaker that converts text, image and clips into Videos. Here is the comprehensive documentation for the Antarctic Movie Maker:
+This is the Antarctic MovieMaker that converts text, image and clips into Videos. Most of the sample images are from [pexels](https://pexels.com). Huge thanks to the independent photographers for providiing quality content free of cost. Here is the comprehensive documentation for the Antarctic Movie Maker:
 
 #### Imports
 - `json`: For loading JSON data.
