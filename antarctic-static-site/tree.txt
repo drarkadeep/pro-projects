@@ -44,6 +44,6 @@
 │   ├── post.html
 │   ├── post_list.html
 │   └── tag.html
-└── tree.md
+└── tree.txt
 
 16 directories, 30 files
