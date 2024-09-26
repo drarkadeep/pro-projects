@@ -1,4 +1,4 @@
-# pro -projects
+# pro-projects
 
 - Unlike the other repo named "Projects", the ones in this repo are "Pro".
 - You can interpret that in two ways -
