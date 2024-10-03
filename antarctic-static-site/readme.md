@@ -1,4 +1,4 @@
-# Python Static Site Generator
+# Antarctic Static Site Generator
 
 This is a simple, yet powerful static site generator built with Python. It allows you to create a beautiful, fast, and SEO-friendly website or blog with ease.
 
